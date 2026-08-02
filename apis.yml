@@ -1,7 +1,24 @@
 aid: vathys
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vathys.png
 name: Vathys
-description: Vathys is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Vathys is a deep learning hardware startup developing specialized chips
+  to accelerate deep learning, focusing on data movement rather than computation
+  as the main bottleneck, with the goal of a supercomputer on a chip reaching one
+  petaflop on a single chip. Backed by DCVC (first investment 2018). As of July 2026
+  Vathys has no discoverable live web presence (vathys.ai and related domains do
+  not resolve) and publishes no public API, developer documentation, packages, or
+  GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/vathys/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Deep Learning
+- Hardware
+- Semiconductors
+- Chips
+- Compute
 apis: []
+common:
+- type: Twitter
+  url: https://twitter.com/Vathysdl
+- type: LLMsTxt
+  url: llms/vathys-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

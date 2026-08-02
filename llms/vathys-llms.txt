@@ -1,0 +1,15 @@
+# Vathys
+
+> Vathys is a deep learning hardware startup developing specialized chips to accelerate deep learning, treating data movement — rather than computation — as the main bottleneck to be solved, with the goal of a "supercomputer on a chip" reaching one petaflop on a single chip. Backed by DCVC (Data Collective), which first invested in 2018.
+
+As of 2026-07-21 Vathys has no discoverable live web presence: vathys.ai, vathys.com, vathys.io, and vathys.co do not resolve in DNS (the Internet Archive holds a snapshot of vathys.ai from 2025-02-06, indicating the site went offline after that date). No first-party packages were found on npm or PyPI, and no official GitHub organization exists (the github.com/vathys account is an unrelated individual). DCVC still lists Vathys as a portfolio company.
+
+## Company
+
+- [DCVC portfolio page](https://www.dcvc.com/companies/vathys): Vathys profile at its investor (sector: AI, Compute & Quantum; first investment 2018)
+- [Twitter/X](https://twitter.com/Vathysdl): @Vathysdl, linked from the DCVC portfolio page
+- [Archived website](http://web.archive.org/web/20250206233358/https://vathys.ai/): last known Internet Archive snapshot of vathys.ai (2025-02-06)
+
+## APIs
+
+- No public API, developer documentation, OpenAPI/AsyncAPI specifications, SDKs, or packages are published as of 2026-07-21. Vathys is a semiconductor/hardware company with no discoverable developer surface.
